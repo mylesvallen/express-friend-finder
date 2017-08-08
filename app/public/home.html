@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FriendFinder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="jumbotron" style="margin:auto; width:65%; 
+    margin-top:1%;
+    background-color:white;
+    color:black; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius:16px">
+        <div class="container">
+            <h1 style="color:#337ab7">#FriendFinder</h1>
+            <p>Answer a few basic questions. Then find the friend with the greatest compatibility!
+            </p>
+            <p><a class="btn btn-primary btn-lg" href="/survey" role="button" style="background-color:#b7337a">Go to Survey</a></p>
+        </div>
+        <p>
+            <a href="/api/friends">API FRIENDS LIST</a></p>
+
+</body>
+<!-- <script type="text/javscript">
+    function runFriendFinderQuery() { 
+        var currentURL = window.location.origin;
+        
+        $.ajax({
+            url: currentURL + "/api/friends", method GET})
+            .done(function(friendFinderData){
+                console.log("URL: " + currentURL + "")
+            })
+        })
+    }
+</script> -->
+
+</html>
